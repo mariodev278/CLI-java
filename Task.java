@@ -7,6 +7,7 @@ public class Task {
         this.text= text;
         this.completed = completed;
         this.id = id;
+
     }
     public String getText() {
         return text;
@@ -18,5 +19,9 @@ public class Task {
 
     public int getId() {
         return id;
+    }
+
+    public void setisCompleted(boolean completed) {
+        this.completed = completed;
     }
 }
